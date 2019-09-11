@@ -1,7 +1,33 @@
 .App {
   text-align: center;
+  background: rgb(69, 85, 69);
+  width: 70vw;
+  margin: 0 auto;
+  padding: 1rem;
+  
 }
-
+h1{
+  color: whitesmoke;
+}
+h2{
+  color: rgb(189, 183, 182);
+}
+.mid-text{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.description-text{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.description-text h2{
+  font-size: 2.25rem;
+}
+.description-text p{
+  font-size: 1.25rem;
+}
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 40vmin;
@@ -30,4 +56,11 @@
   to {
     transform: rotate(360deg);
   }
+}
+span{
+  color: rgb(134, 121, 121);
+}
+
+p{
+  color:rgb(252, 252, 252);
 }

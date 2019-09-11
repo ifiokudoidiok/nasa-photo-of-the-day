@@ -20,10 +20,13 @@ function Description(props){
       }, []);
     return (
         
-        <>
+        <div className="description-text">
         <h2>Description:</h2>
+        <p>
         {displayDescription.data}
-        </>
+        </p>
+        
+        </div>
     )
 }
 

@@ -21,10 +21,13 @@ function App() {
         <h1>
           Today's Photo and Its Story
         </h1>
-        <Photo /><br/>
-        <Title/><br/>
-        <Date/><br/>
-        <Description /><br/>
+        <Photo />
+        <div className="mid-text">
+        <Title/>
+        <Date/>
+        </div>
+        
+        <Description /><br/><br/>
     </div>
   );
 }

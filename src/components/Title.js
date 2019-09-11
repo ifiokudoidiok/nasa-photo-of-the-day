@@ -20,8 +20,8 @@ function Title(props) {
   }, []);
   return (
     <>
-      <h2>Title:</h2>
-      {displayTitle.data}
+      <h2>Title: <span>{displayTitle.data}</span></h2>
+      
     </>
   );
 }
